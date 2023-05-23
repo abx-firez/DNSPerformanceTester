@@ -12,7 +12,7 @@ DNS_SERVERS = [ '8.8.8.8', # Google
 				'208.67.222.222', # OpenDNS
 				'87.118.100.175' # German Privacy Foundation e.V. 
 			  ]
-DOMAINS = ['google.de', 'google.com', 'amazon.de', 'amazon.com', 'hnu.de']
+DOMAINS = ['google.de', 'google.com', 'amazon.de', 'amazon.com', 'hnu.de', 'golem.de', 'heise.de', 'github.com']
 
 def measure_response_time(server, domain):
     try:
